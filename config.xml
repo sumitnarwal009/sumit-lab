@@ -452,29 +452,18 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1776288020.78</time>
+    <description>/api/wireguard/client/del_client/61746f40-9a15-4be2-a80f-4422ab3438a7 made changes</description>
+    <time>1776288189.57</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1756820359.88">
-        <clients>
-          <client uuid="61746f40-9a15-4be2-a80f-4422ab3438a7">
-            <enabled>1</enabled>
-            <name>Linode-Chicago</name>
-            <pubkey>gAcXLNFiot45rhsU2vCGZCl+Xl2yL52oSUT1TiVXiEQ=</pubkey>
-            <psk/>
-            <tunneladdress>0.0.0.0/0</tunneladdress>
-            <serveraddress>172.234.27.16</serveraddress>
-            <serverport>51820</serverport>
-            <keepalive>25</keepalive>
-          </client>
-        </clients>
+      <client version="1.0.0" persisted_at="1776288189.57" description="WireGuard peer configuration">
+        <clients/>
       </client>
       <general version="0.0.1" persisted_at="1756831180.95">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1776284722.26" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1776288189.56" description="WireGuard instance configuration">
         <servers>
           <server uuid="9e082333-58bb-44d5-8893-280b02ca74d9">
             <enabled>1</enabled>

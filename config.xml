@@ -93,7 +93,7 @@
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <backup>
-      <git version="1.0.0" persisted_at="1776286765.20" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1776288358.41" description="Git Backup Settings">
         <enabled>1</enabled>
         <url>https://github.com/sumitnarwal009/sumit-lab.git</url>
         <branch>master</branch>
@@ -452,8 +452,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/routing/settings/del_gateway/baeec3fd-0e8d-47a8-bbbb-d8b2aa805a0f made changes</description>
-    <time>1776288234.31</time>
+    <description>/diag_backup.php made changes</description>
+    <time>1776288358.41</time>
   </revision>
   <OPNsense>
     <wireguard>

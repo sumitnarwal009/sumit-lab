@@ -394,6 +394,31 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="0b9bb4bf-b4fe-470e-9846-070841487dfd">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+      </destination>
+      <updated>
+        <username>root@10.10.10.14</username>
+        <time>1776288020.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.14</username>
+        <time>1776288020.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="ae78ffbb-587f-430d-9caa-2e0c6b7f35f6">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -427,8 +452,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1776286765.20</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1776288020.78</time>
   </revision>
   <OPNsense>
     <wireguard>

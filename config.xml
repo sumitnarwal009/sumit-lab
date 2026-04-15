@@ -452,8 +452,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1776288192.77</time>
+    <description>/api/routing/settings/del_gateway/baeec3fd-0e8d-47a8-bbbb-d8b2aa805a0f made changes</description>
+    <time>1776288234.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -895,34 +895,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1776283961.32">
-      <gateway_item uuid="baeec3fd-0e8d-47a8-bbbb-d8b2aa805a0f">
-        <disabled>1</disabled>
-        <name>WAN_GW</name>
-        <descr>Interface WAN Gateway</descr>
-        <interface>wan</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.8.1</gateway>
-        <defaultgw>1</defaultgw>
-        <fargw>0</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>255</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-    </Gateways>
+    <Gateways version="1.0.0" persisted_at="1776288234.31" description="Gateways configuration"/>
     <Syslog version="1.0.2" persisted_at="1756758970.03">
       <general>
         <enabled>1</enabled>

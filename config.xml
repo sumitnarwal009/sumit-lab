@@ -375,17 +375,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>SSH</descr>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>tcp</protocol>
       <source>
         <any>1</any>
       </source>
       <destination>
         <any>1</any>
-        <port>22</port>
       </destination>
       <updated>
         <username>root@10.10.10.14</username>
-        <time>1776281702.67</time>
+        <time>1776299867.64</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -452,8 +450,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1776288358.41</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1776299867.70</time>
   </revision>
   <OPNsense>
     <wireguard>

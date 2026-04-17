@@ -473,6 +473,32 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="a6b9c9b4-de72-4bae-be2c-90df52e72129">
+      <type>pass</type>
+      <interface>opt5</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>opt5ip</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.14</username>
+        <time>1776388500.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.14</username>
+        <time>1776388500.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -483,7 +509,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1776388458.48</time>
+    <time>1776388500.77</time>
   </revision>
   <OPNsense>
     <wireguard>

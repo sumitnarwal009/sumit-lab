@@ -447,6 +447,32 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <any/>
       </destination>
     </rule>
+    <rule uuid="3db8b739-7824-498a-ac07-abe9fb9a420d">
+      <type>pass</type>
+      <interface>opt5</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>opt5ip</network>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.14</username>
+        <time>1776388458.42</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.14</username>
+        <time>1776388458.42</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -456,8 +482,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces.php made changes</description>
-    <time>1776388321.57</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1776388458.48</time>
   </revision>
   <OPNsense>
     <wireguard>

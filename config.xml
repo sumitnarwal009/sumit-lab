@@ -450,8 +450,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/zerotier/network/add/ made changes</description>
-    <time>1776387467.82</time>
+    <description>/api/zerotier/network/toggle/957e7c45-1a8a-4813-86f6-4ccb910cc3b6 made changes</description>
+    <time>1776387503.21</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1005,13 +1005,13 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <interface/>
       </general>
     </Hostwatch>
-    <zerotier version="1.3.0" persisted_at="1776387467.82" description="Zerotier - Virtual Networks That Just Work.">
+    <zerotier version="1.3.0" persisted_at="1776387503.21" description="Zerotier - Virtual Networks That Just Work.">
       <enabled>1</enabled>
       <apiAccessToken/>
       <localconf>{}</localconf>
       <networks>
         <network uuid="957e7c45-1a8a-4813-86f6-4ccb910cc3b6">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <networkId>b103a835d268aafe</networkId>
           <description/>
         </network>

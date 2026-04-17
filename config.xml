@@ -253,8 +253,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <networks/>
     </wireguard>
     <opt5>
-      <descr>Zerotier</descr>
       <if>ztb20t86n96hanu</if>
+      <descr>Zerotier</descr>
+      <enable>1</enable>
+      <spoofmac/>
     </opt5>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1756816064.85">
@@ -454,8 +456,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776388167.69</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776388321.57</time>
   </revision>
   <OPNsense>
     <wireguard>

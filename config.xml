@@ -82,7 +82,7 @@
     <firmware version="1.0.1" persisted_at="1756758969.40">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup</plugins>
+      <plugins>os-git-backup,os-zerotier</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -450,8 +450,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1776387291.84</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1776387292.16</time>
   </revision>
   <OPNsense>
     <wireguard>

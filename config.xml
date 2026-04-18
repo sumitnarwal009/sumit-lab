@@ -549,7 +549,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1776547636.63</time>
+    <time>1776547636.71</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1115,7 +1115,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547636.63" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547636.71" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1283,7 +1283,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       </intrusiondetection>
       <streamReportConfig>
         <enabled>false</enabled>
-        <server/>
+        <server>127.0.0.1</server>
         <port>514</port>
         <protocol>UDP</protocol>
         <indexes/>

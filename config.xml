@@ -549,8 +549,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/zenarmor/installer/install_database made changes</description>
-    <time>1776547901.06</time>
+    <description>/api/zenarmor/installer/complete made changes</description>
+    <time>1776548376.15</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1130,7 +1130,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547901.06" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776548376.15" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1156,7 +1156,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <heartbeatTimer>24 1,9,18 * * *</heartbeatTimer>
         <coreFileEnable>false</coreFileEnable>
         <showWanIface>false</showWanIface>
-        <flavor>100</flavor>
+        <flavor>25</flavor>
         <healthCheck>true</healthCheck>
         <healthShare>true</healthShare>
         <healthTimer>7,17,27,37,47,57 * * * *</healthTimer>

@@ -83,7 +83,7 @@
     <firmware version="1.0.1" persisted_at="1756758969.40">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-zerotier</plugins>
+      <plugins>os-git-backup,os-sunnyvalley,os-zerotier</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -536,9 +536,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.14</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1776545664.24</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1776547264.83</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -46,6 +46,7 @@
       <ssl-ciphers/>
       <interfaces/>
       <compression/>
+      <nodnsrebindcheck>1</nodnsrebindcheck>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -536,8 +537,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1776545575.59</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1776545664.24</time>
   </revision>
   <OPNsense>
     <wireguard>

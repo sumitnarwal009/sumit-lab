@@ -550,7 +550,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/api/zenarmor/installer/complete made changes</description>
-    <time>1776548376.15</time>
+    <time>1776548376.25</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1130,7 +1130,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776548376.15" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776548376.25" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1193,18 +1193,18 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <MongoStreamURI/>
         </bigquery>
         <database>
-          <Type/>
+          <Type>SQ</Type>
           <Host/>
           <Port/>
           <User/>
-          <Pass/>
-          <Version/>
+          <Pass>b64:</Pass>
+          <Version>sqlite3</Version>
           <FullVersion/>
-          <Remote/>
+          <Remote>false</Remote>
           <Prefix/>
           <ClusterUUID/>
           <retireAfter>2</retireAfter>
-          <dbpath/>
+          <dbpath>/usr/local/datastore/sqlite</dbpath>
         </database>
         <swapRate>60</swapRate>
         <swapRateEnabled>true</swapRateEnabled>

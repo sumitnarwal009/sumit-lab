@@ -538,7 +538,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1776547632.46</time>
+    <time>1776547632.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1104,7 +1104,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547632.46" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547632.56" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1157,7 +1157,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <endDate/>
         </support>
         <clientemail/>
-        <customerid/>
+        <customerid>0000000000</customerid>
         <sendcategory>true</sendcategory>
         <bigquery>
           <ProjectID/>

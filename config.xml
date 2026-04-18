@@ -538,7 +538,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1776547632.56</time>
+    <time>1776547632.66</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1104,7 +1104,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547632.56" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547632.66" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1175,7 +1175,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <Version>56800</Version>
           <FullVersion/>
           <Remote>false</Remote>
-          <Prefix/>
+          <Prefix>zenarmor_0000000000_7a7e21c4-c31e-44d2-83e7-5058aa6f9f8c_</Prefix>
           <ClusterUUID/>
           <retireAfter>7</retireAfter>
           <dbpath/>

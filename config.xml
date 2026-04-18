@@ -548,9 +548,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLIResolv.php made changes</description>
-    <time>1776547794.33</time>
+    <username>root@10.10.10.14</username>
+    <description>/api/zenarmor/installer/install_database made changes</description>
+    <time>1776547901.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1130,7 +1130,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547792.99" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547901.06" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1193,17 +1193,17 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <MongoStreamURI/>
         </bigquery>
         <database>
-          <Type>ES</Type>
-          <Host>http://127.0.0.1</Host>
-          <Port>9200</Port>
+          <Type/>
+          <Host/>
+          <Port/>
           <User/>
           <Pass/>
-          <Version>56800</Version>
+          <Version/>
           <FullVersion/>
-          <Remote>false</Remote>
-          <Prefix>zenarmor_0000000000_7a7e21c4-c31e-44d2-83e7-5058aa6f9f8c_</Prefix>
+          <Remote/>
+          <Prefix/>
           <ClusterUUID/>
-          <retireAfter>7</retireAfter>
+          <retireAfter>2</retireAfter>
           <dbpath/>
         </database>
         <swapRate>60</swapRate>

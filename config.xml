@@ -46,7 +46,7 @@
       <priv/>
       <language/>
       <descr>System Administrator</descr>
-      <dashboard/>
+      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjYzOCwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjAsImgiOjk4LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiZGlzayIsIm1pblciOjEsIngiOjMsInkiOjAsImgiOjk4LCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjIyNCwid2lkZ2V0IjpbXX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6OCwieSI6MCwidyI6NCwiaCI6MjI0LCJ3aWRnZXQiOltdfSx7ImlkIjoiZ2F0ZXdheXMiLCJtaW5XIjoyLCJ4IjoyLCJ5Ijo5OCwic2l6ZVRvQ29udGVudCI6NjUwLCJoIjoyNzAsIndpZGdldCI6eyJnYXRld2F5cyI6WyJXQU5fREhDUDYiLCJXQU5fREhDUCJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6NCwieSI6MjI0LCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjY1MCwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjoyMjQsInciOjQsImgiOjQ0Niwid2lkZ2V0Ijp7ImludGVyZmFjZXMiOlsibGFuIiwid2FuIl19fSx7ImlkIjoiYW5ub3VuY2VtZW50cyIsIm1pblciOjIsIngiOjIsInkiOjM2OCwic2l6ZVRvQ29udGVudCI6MzUwLCJoIjozNTAsIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJjcHUiLCJtaW5XIjoyLCJ4IjowLCJ5Ijo2MzgsImgiOjE3Nywid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6InplbmFybW9yIiwibWluVyI6Miwic2l6ZVRvQ29udGVudCI6NjUwLCJ4Ijo4LCJ5Ijo2NzAsImgiOjU1Niwid2lkZ2V0IjpbXSwidyI6Mn1dfQ==</dashboard>
     </user>
     <timezone>America/Chicago</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
@@ -176,6 +176,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <track6-interface>wan</track6-interface>
       <track6-prefix-id>0</track6-prefix-id>
       <descr>LAN</descr>
+      <mtu>1500</mtu>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -548,9 +549,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLIResolv.php made changes</description>
-    <time>1776548382.05</time>
+    <username>root@10.10.10.14</username>
+    <description>/api/core/dashboard/save_widgets made changes</description>
+    <time>1776548463.64</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -1,7 +1,18 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense</theme>
-  <sysctl version="1.0.2" persisted_at="1776284722.11" description="System Tunables"/>
+  <sysctl version="1.0.2" persisted_at="1776284722.11" description="System Tunables">
+    <item>
+      <tunable>dev.netmap.ring_num</tunable>
+      <value>1024</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
+    <item>
+      <tunable>dev.netmap.buf_num</tunable>
+      <value>1000000</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
+  </sysctl>
   <system>
     <optimization>normal</optimization>
     <hostname>OPNsense</hostname>
@@ -538,7 +549,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1776547633.07</time>
+    <time>1776547635.93</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1104,7 +1115,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547633.07" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547635.93" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1121,8 +1132,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <sessionInactivityTimeout>28800</sessionInactivityTimeout>
       </sso>
       <cti>
-        <enabled>false</enabled>
-        <globalCtiHost>cti.zenarmor.net</globalCtiHost>
+        <enabled>true</enabled>
+        <globalCtiHost>tier2-cti.zenarmor.net</globalCtiHost>
         <globalCtiPort>2096</globalCtiPort>
       </cti>
       <general>

@@ -548,9 +548,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1776547641.28</time>
+    <username>root@10.10.10.14</username>
+    <description>/api/zenarmor/configuration/deployment?deploymentMode=routedG&amp;showWan=false made changes</description>
+    <time>1776547674.82</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1130,7 +1130,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </network>
       </networks>
     </zerotier>
-    <Zenarmor version="0.0.0" persisted_at="1776547639.95" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1776547674.82" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>

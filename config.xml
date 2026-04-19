@@ -165,18 +165,16 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <gatewayv6/>
     </wan>
     <lan>
-      <enable>1</enable>
       <if>igc1</if>
+      <descr>LAN1</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <mtu>1500</mtu>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
       <ipaddrv6>track6</ipaddrv6>
-      <subnetv6>64</subnetv6>
-      <media/>
-      <mediaopt/>
       <track6-interface>wan</track6-interface>
       <track6-prefix-id>0</track6-prefix-id>
-      <descr>LAN</descr>
-      <mtu>1500</mtu>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -491,7 +489,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces.php made changes</description>
-    <time>1776640110.90</time>
+    <time>1776640127.13</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -272,6 +272,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt5>
+    <opt6>
+      <descr>OPT6</descr>
+      <if>igc2</if>
+    </opt6>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -511,9 +515,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.14</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1776564164.25</time>
+    <username>root@10.10.10.156</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776604993.84</time>
   </revision>
   <OPNsense>
     <wireguard>

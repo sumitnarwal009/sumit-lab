@@ -220,7 +220,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>OPT6</descr>
+      <descr>OPT5</descr>
       <if>igc2</if>
     </opt6>
   </interfaces>
@@ -463,8 +463,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776640219.93</time>
+    <description>Interface OPT5(opt6) is now disabled.</description>
+    <time>1776640249.96</time>
   </revision>
   <OPNsense>
     <wireguard>

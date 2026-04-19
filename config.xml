@@ -551,7 +551,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/api/diagnostics/netflow/setconfig made changes</description>
-    <time>1776561860.04</time>
+    <time>1776561875.32</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -719,15 +719,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <onetoone/>
       </Filter>
     </Firewall>
-    <Netflow version="1.0.1" persisted_at="1776561860.04" description="NetFlow configuration">
+    <Netflow version="1.0.1" persisted_at="1776561875.32" description="NetFlow configuration">
       <capture>
         <interfaces>opt1</interfaces>
         <egress_only/>
         <version>v9</version>
-        <targets/>
+        <targets>127.0.0.1:2056</targets>
       </capture>
       <collect>
-        <enable>0</enable>
+        <enable>1</enable>
       </collect>
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>

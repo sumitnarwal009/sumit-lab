@@ -463,8 +463,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>Interface OPT5(opt6) is now disabled.</description>
-    <time>1776640252.12</time>
+    <description>/api/interfaces/vlan_settings/set_item/130aede6-4ddc-4c87-8dab-ad6e378492b7 made changes</description>
+    <time>1776640408.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1287,9 +1287,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1776639548.08" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1776640408.69" description="VLAN configuration">
     <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
-      <if>igc0</if>
+      <if>igc1</if>
       <tag>1</tag>
       <pcp>0</pcp>
       <proto/>

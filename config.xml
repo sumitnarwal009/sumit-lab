@@ -242,14 +242,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>OPT5</descr>
       <if>igc5</if>
     </opt6>
-    <opt1>
-      <if>vlan01</if>
-      <descr>VLAN2</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.2.1</ipaddr>
-      <subnet>24</subnet>
-    </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -491,7 +483,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776641159.16</time>
+    <time>1776641229.24</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1349,20 +1341,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <dnsserver/>
       <ntpserver/>
     </lan>
-    <opt1>
-      <enable>1</enable>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>192.168.2.2</from>
-        <to>192.168.2.20</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt1>
   </dhcpd>
   <dhcpdv6/>
   <cert uuid="1774db18-9a29-483b-84bf-6dd83322d8ef">

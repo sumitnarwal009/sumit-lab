@@ -464,7 +464,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>Interface OPT5(opt6) is now disabled.</description>
-    <time>1776640249.96</time>
+    <time>1776640252.12</time>
   </revision>
   <OPNsense>
     <wireguard>

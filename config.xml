@@ -276,6 +276,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>OPT6</descr>
       <if>igc2</if>
     </opt6>
+    <opt7>
+      <descr>OPT7</descr>
+      <if>vlan01</if>
+    </opt7>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -516,8 +520,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/interfaces/vlan_settings/set_item/130aede6-4ddc-4c87-8dab-ad6e378492b7 made changes</description>
-    <time>1776639548.08</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776639717.10</time>
   </revision>
   <OPNsense>
     <wireguard>

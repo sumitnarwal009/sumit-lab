@@ -189,7 +189,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <virtual>1</virtual>
     </lo0>
     <opt2>
-      <if>igc3</if>
+      <if>igc2</if>
       <descr>LAN2</descr>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
@@ -213,12 +213,12 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <adv_dhcp_config_file_override_path/>
     </opt2>
     <opt3>
-      <if>igc4</if>
+      <if>igc3</if>
       <enable>1</enable>
       <descr>OPT3</descr>
     </opt3>
     <opt4>
-      <if>igc5</if>
+      <if>igc4</if>
       <enable>1</enable>
       <descr>OPT4</descr>
     </opt4>
@@ -239,7 +239,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     </opt5>
     <opt6>
       <descr>OPT5</descr>
-      <if>igc2</if>
+      <if>igc5</if>
     </opt6>
     <opt1>
       <descr>OPT1</descr>
@@ -485,8 +485,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>Interface LAN2(opt2) is now disabled.</description>
-    <time>1776640664.47</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776640697.58</time>
   </revision>
   <OPNsense>
     <wireguard>

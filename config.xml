@@ -283,7 +283,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
-      <alias-address>192.168.1.1</alias-address>
+      <alias-address>192.168.2.1</alias-address>
       <alias-subnet>24</alias-subnet>
       <dhcprejectfrom/>
       <adv_dhcp_pt_timeout/>
@@ -542,7 +542,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces.php made changes</description>
-    <time>1776639839.51</time>
+    <time>1776639878.18</time>
   </revision>
   <OPNsense>
     <wireguard>

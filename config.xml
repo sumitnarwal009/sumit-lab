@@ -515,9 +515,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.156</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776604993.84</time>
+    <username>root@10.10.10.14</username>
+    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
+    <time>1776639539.44</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1340,8 +1340,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1756758969.97">
-    <vlan/>
+  <vlans version="1.0.0" persisted_at="1776639539.44" description="VLAN configuration">
+    <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
+      <if>igc0</if>
+      <tag>1</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr/>
+      <vlanif>vlan01</vlanif>
+    </vlan>
   </vlans>
   <staticroutes version="1.0.0" persisted_at="1756758969.99">
     <route/>

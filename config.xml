@@ -191,7 +191,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <opt2>
       <if>igc3</if>
       <descr>LAN2</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
@@ -486,8 +485,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776640628.57</time>
+    <description>Interface LAN2(opt2) is now disabled.</description>
+    <time>1776640664.47</time>
   </revision>
   <OPNsense>
     <wireguard>

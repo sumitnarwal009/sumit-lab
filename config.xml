@@ -273,7 +273,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
     </opt5>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1776563560.76" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776563568.75" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -532,8 +532,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/dnsmasq/settings/del_range/347de974-f15f-49b7-a9e8-127952e85efb made changes</description>
-    <time>1776563560.76</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1776563568.75</time>
   </revision>
   <OPNsense>
     <wireguard>

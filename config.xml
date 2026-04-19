@@ -273,7 +273,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
     </opt5>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1776563546.73" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1776563560.76" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -310,26 +310,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <dhcp_ranges uuid="347de974-f15f-49b7-a9e8-127952e85efb">
-      <interface>lan</interface>
-      <set_tag/>
-      <start_addr>192.168.1.41</start_addr>
-      <end_addr>192.168.1.245</end_addr>
-      <subnet_mask/>
-      <constructor/>
-      <mode/>
-      <prefix_len/>
-      <lease_time/>
-      <domain_type>range</domain_type>
-      <domain/>
-      <nosync>0</nosync>
-      <ra_mode/>
-      <ra_priority/>
-      <ra_mtu/>
-      <ra_interval/>
-      <ra_router_lifetime/>
-      <description/>
-    </dhcp_ranges>
     <dhcp_ranges uuid="ddb7694b-261b-4bc5-a1ea-71aabff4cd4b">
       <interface>opt1</interface>
       <set_tag/>
@@ -552,8 +532,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1776563546.73</time>
+    <description>/api/dnsmasq/settings/del_range/347de974-f15f-49b7-a9e8-127952e85efb made changes</description>
+    <time>1776563560.76</time>
   </revision>
   <OPNsense>
     <wireguard>

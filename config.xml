@@ -243,7 +243,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     </opt6>
     <opt1>
       <if>vlan01</if>
-      <descr>OPT1</descr>
+      <descr>VLAN2</descr>
       <enable>1</enable>
       <spoofmac/>
       <ipaddr>192.168.2.1</ipaddr>
@@ -490,7 +490,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces.php made changes</description>
-    <time>1776640747.34</time>
+    <time>1776640798.47</time>
   </revision>
   <OPNsense>
     <wireguard>

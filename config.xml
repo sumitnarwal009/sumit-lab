@@ -277,8 +277,29 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <if>igc2</if>
     </opt6>
     <opt7>
-      <descr>OPT7</descr>
       <if>vlan01</if>
+      <descr>VLAN1</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>dhcp</ipaddr>
+      <dhcphostname/>
+      <alias-address>192.168.1.1</alias-address>
+      <alias-subnet>24</alias-subnet>
+      <dhcprejectfrom/>
+      <adv_dhcp_pt_timeout/>
+      <adv_dhcp_pt_retry/>
+      <adv_dhcp_pt_select_timeout/>
+      <adv_dhcp_pt_reboot/>
+      <adv_dhcp_pt_backoff_cutoff/>
+      <adv_dhcp_pt_initial_interval/>
+      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
+      <adv_dhcp_send_options/>
+      <adv_dhcp_request_options/>
+      <adv_dhcp_required_options/>
+      <adv_dhcp_option_modifiers/>
+      <adv_dhcp_config_advanced/>
+      <adv_dhcp_config_file_override/>
+      <adv_dhcp_config_file_override_path/>
     </opt7>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
@@ -520,8 +541,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776639717.10</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776639793.26</time>
   </revision>
   <OPNsense>
     <wireguard>

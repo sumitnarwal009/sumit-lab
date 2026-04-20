@@ -312,9 +312,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Console assignment of interfaces</description>
-    <time>1776691369.16</time>
+    <username>root@10.148.47.160</username>
+    <description>/api/interfaces/vlan_settings/del_item/eaa41d79-02a3-48ee-a660-400d0f09172b made changes</description>
+    <time>1776692044.94</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1137,7 +1137,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1776650751.01" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1776692044.94" description="VLAN configuration">
     <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
       <if>igc1</if>
       <tag>10</tag>
@@ -1153,14 +1153,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <proto/>
       <descr>vlan0.20</descr>
       <vlanif>vlan0.20</vlanif>
-    </vlan>
-    <vlan uuid="eaa41d79-02a3-48ee-a660-400d0f09172b">
-      <if>igc1</if>
-      <tag>30</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr>vlan0.30</descr>
-      <vlanif>vlan0.30</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0" persisted_at="1756758969.99">

@@ -186,28 +186,11 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     </lo0>
     <opt2>
       <if>igc2</if>
-      <descr>LAN2</descr>
+      <descr>Guest_Network</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address>192.168.2.1</alias-address>
-      <alias-subnet>24</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
+      <ipaddr>192.168.30.1</ipaddr>
+      <subnet>24</subnet>
     </opt2>
     <opt3>
       <if>igc3</if>
@@ -470,8 +453,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/interfaces/vlan_settings/set_item/eaa41d79-02a3-48ee-a660-400d0f09172b made changes</description>
-    <time>1776650751.01</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776650962.44</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -239,8 +239,12 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <if>igc5</if>
     </opt6>
     <opt7>
-      <descr>OPT7</descr>
       <if>vlan0.20</if>
+      <descr>DMZ</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>192.168.20.1</ipaddr>
+      <subnet>24</subnet>
     </opt7>
     <opt8>
       <descr>OPT8</descr>
@@ -470,8 +474,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776650470.10</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776650510.13</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -250,10 +250,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>OPT5</descr>
       <if>igc5</if>
     </opt6>
-    <opt1>
-      <descr>OPT1</descr>
-      <if>vlan0.5</if>
-    </opt1>
     <opt7>
       <descr>OPT7</descr>
       <if>vlan0.20</if>
@@ -503,7 +499,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776650175.14</time>
+    <time>1776650303.72</time>
   </revision>
   <OPNsense>
     <wireguard>

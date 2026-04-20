@@ -246,14 +246,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <ipaddr>192.168.20.1</ipaddr>
       <subnet>24</subnet>
     </opt7>
-    <opt8>
-      <if>vlan0.30</if>
-      <descr>Guest_Network</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.30.1</ipaddr>
-      <subnet>24</subnet>
-    </opt8>
     <opt1>
       <if>vlan0.10</if>
       <descr>LAN</descr>
@@ -478,8 +470,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces.php made changes</description>
-    <time>1776650561.33</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776650701.36</time>
   </revision>
   <OPNsense>
     <wireguard>

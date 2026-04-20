@@ -159,14 +159,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt5>
-    <opt7>
-      <if>vlan0.20</if>
-      <descr>DMZ</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.20.1</ipaddr>
-      <subnet>24</subnet>
-    </opt7>
     <wan>
       <if>igc0</if>
       <enable>1</enable>
@@ -313,8 +305,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/interfaces/vlan_settings/del_item/130aede6-4ddc-4c87-8dab-ad6e378492b7 made changes</description>
-    <time>1776692044.99</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776692055.95</time>
   </revision>
   <OPNsense>
     <wireguard>

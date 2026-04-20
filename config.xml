@@ -185,7 +185,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <virtual>1</virtual>
     </lo0>
     <opt2>
-      <if>igc2</if>
+      <if>vlan0.30</if>
       <descr>Guest_Network</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -453,8 +453,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces.php made changes</description>
-    <time>1776650962.44</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776651010.55</time>
   </revision>
   <OPNsense>
     <wireguard>

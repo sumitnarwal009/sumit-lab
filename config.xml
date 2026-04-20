@@ -144,14 +144,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <opt2>
-      <if>vlan0.30</if>
-      <descr>Guest_Network</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.30.1</ipaddr>
-      <subnet>24</subnet>
-    </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
       <descr>WireGuard (Group)</descr>
@@ -175,14 +167,13 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <ipaddr>192.168.20.1</ipaddr>
       <subnet>24</subnet>
     </opt7>
-    <opt1>
-      <if>vlan0.10</if>
-      <descr>LAN</descr>
+    <wan>
+      <if>igc0</if>
       <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.10.1</ipaddr>
-      <subnet>24</subnet>
-    </opt1>
+      <ipaddr>dhcp</ipaddr>
+      <ipaddrv6>dhcp6</ipaddrv6>
+      <blockbogons>1</blockbogons>
+    </wan>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -321,9 +312,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.14</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776651030.83</time>
+    <username>(root)</username>
+    <description>Console assignment of interfaces</description>
+    <time>1776691369.16</time>
   </revision>
   <OPNsense>
     <wireguard>

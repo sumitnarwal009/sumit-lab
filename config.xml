@@ -258,6 +258,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>OPT8</descr>
       <if>vlan0.30</if>
     </opt8>
+    <opt1>
+      <descr>OPT1</descr>
+      <if>vlan0.10</if>
+    </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -498,8 +502,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/interfaces/vlan_settings/set_item/130aede6-4ddc-4c87-8dab-ad6e378492b7 made changes</description>
-    <time>1776650331.11</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776650360.54</time>
   </revision>
   <OPNsense>
     <wireguard>

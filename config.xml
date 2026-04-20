@@ -490,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/interfaces.php made changes</description>
-    <time>1776649378.68</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1776649411.28</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1336,6 +1336,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <ca/>
   <dhcpd>
     <lan>
+      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>

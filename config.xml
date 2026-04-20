@@ -54,6 +54,8 @@
       <protocol>http</protocol>
       <ssl-certref>68b6040659f2d</ssl-certref>
       <port/>
+      <ssl-ciphers/>
+      <interfaces/>
       <compression/>
       <nodnsrebindcheck>1</nodnsrebindcheck>
     </webgui>
@@ -157,17 +159,20 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt5>
+    <opt7>
+      <if>vlan0.20</if>
+      <descr>DMZ</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>192.168.20.1</ipaddr>
+      <subnet>24</subnet>
+    </opt7>
     <wan>
       <if>igc0</if>
       <enable>1</enable>
       <ipaddr>dhcp</ipaddr>
-      <ipaddrv6/>
+      <ipaddrv6>dhcp6</ipaddrv6>
       <blockbogons>1</blockbogons>
-      <descr>WAN</descr>
-      <subnet/>
-      <gateway/>
-      <subnetv6/>
-      <gatewayv6/>
     </wan>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
@@ -207,13 +212,17 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <dhcp_ranges/>
   </dnsmasq>
   <snmpd>
     <syslocation/>
     <syscontact/>
     <rocommunity>public</rocommunity>
   </snmpd>
+  <nat>
+    <outbound>
+      <mode>automatic</mode>
+    </outbound>
+  </nat>
   <filter>
     <rule uuid="3db8b739-7824-498a-ac07-abe9fb9a420d">
       <type>pass</type>
@@ -304,8 +313,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>wan configuration from console menu</description>
-    <time>1776693964.73</time>
+    <description>Console assignment of interfaces</description>
+    <time>1776694611.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1128,7 +1137,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1776692044.99" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1776692044.94" description="VLAN configuration">
+    <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
+      <if>igc1</if>
+      <tag>10</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>Vlan0.10</descr>
+      <vlanif>vlan0.10</vlanif>
+    </vlan>
     <vlan uuid="f2fa0048-92eb-4212-97f6-73752268da0e">
       <if>igc1</if>
       <tag>20</tag>

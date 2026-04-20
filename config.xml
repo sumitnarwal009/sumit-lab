@@ -178,25 +178,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <spoofmac/>
       <mtu>1500</mtu>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address>192.168.1.1</alias-address>
-      <alias-subnet>24</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
+      <ipaddr>192.168.1.1</ipaddr>
+      <subnet>24</subnet>
       <ipaddrv6>track6</ipaddrv6>
       <track6-interface>wan</track6-interface>
       <track6-prefix-id>0</track6-prefix-id>
@@ -507,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/system_general.php made changes</description>
-    <time>1776648426.60</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776649378.68</time>
   </revision>
   <OPNsense>
     <wireguard>

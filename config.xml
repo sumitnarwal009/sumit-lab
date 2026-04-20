@@ -207,10 +207,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <descr>OPT5</descr>
-      <if>igc5</if>
-    </opt6>
     <opt7>
       <if>vlan0.20</if>
       <descr>DMZ</descr>
@@ -444,7 +440,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776651023.24</time>
+    <time>1776651027.44</time>
   </revision>
   <OPNsense>
     <wireguard>

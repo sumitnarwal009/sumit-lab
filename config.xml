@@ -192,11 +192,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <ipaddr>192.168.30.1</ipaddr>
       <subnet>24</subnet>
     </opt2>
-    <opt4>
-      <if>igc4</if>
-      <enable>1</enable>
-      <descr>OPT4</descr>
-    </opt4>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
       <descr>WireGuard (Group)</descr>
@@ -449,7 +444,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776651019.34</time>
+    <time>1776651023.24</time>
   </revision>
   <OPNsense>
     <wireguard>

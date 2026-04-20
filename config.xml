@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <opnsense>
-  <theme>opnsense-dark</theme>
+  <theme>opnsense</theme>
   <sysctl version="1.0.2" persisted_at="1776284722.11" description="System Tunables">
     <item>
       <tunable>dev.netmap.ring_num</tunable>
@@ -508,7 +508,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/system_general.php made changes</description>
-    <time>1776648392.01</time>
+    <time>1776648426.60</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -165,6 +165,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <ipaddr>dhcp</ipaddr>
       <ipaddrv6>dhcp6</ipaddrv6>
       <blockbogons>1</blockbogons>
+      <descr>WAN</descr>
     </wan>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
@@ -306,7 +307,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.148.47.160</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776692055.95</time>
+    <time>1776692062.47</time>
   </revision>
   <OPNsense>
     <wireguard>

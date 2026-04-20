@@ -132,46 +132,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <dns8gw>none</dns8gw>
   </system>
   <interfaces>
-    <wan>
-      <if>igc0</if>
-      <descr/>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <subnet/>
-      <gateway/>
-      <ipaddrv6>dhcp6</ipaddrv6>
-      <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
-      <adv_dhcp6_interface_statement_send_options/>
-      <adv_dhcp6_interface_statement_request_options/>
-      <adv_dhcp6_interface_statement_information_only_enable/>
-      <adv_dhcp6_interface_statement_script/>
-      <adv_dhcp6_id_assoc_statement_address_enable/>
-      <adv_dhcp6_id_assoc_statement_address/>
-      <adv_dhcp6_id_assoc_statement_address_id/>
-      <adv_dhcp6_id_assoc_statement_address_pltime/>
-      <adv_dhcp6_id_assoc_statement_address_vltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_enable/>
-      <adv_dhcp6_id_assoc_statement_prefix/>
-      <adv_dhcp6_id_assoc_statement_prefix_id/>
-      <adv_dhcp6_id_assoc_statement_prefix_pltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_vltime/>
-      <adv_dhcp6_prefix_interface_statement_sla_len/>
-      <adv_dhcp6_authentication_statement_authname/>
-      <adv_dhcp6_authentication_statement_protocol/>
-      <adv_dhcp6_authentication_statement_algorithm/>
-      <adv_dhcp6_authentication_statement_rdm/>
-      <adv_dhcp6_key_info_statement_keyname/>
-      <adv_dhcp6_key_info_statement_realm/>
-      <adv_dhcp6_key_info_statement_keyid/>
-      <adv_dhcp6_key_info_statement_secret/>
-      <adv_dhcp6_key_info_statement_expire/>
-      <adv_dhcp6_config_advanced/>
-      <adv_dhcp6_config_file_override/>
-      <adv_dhcp6_config_file_override_path/>
-      <subnetv6/>
-      <gatewayv6/>
-    </wan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
       <descr>Loopback</descr>
@@ -273,83 +233,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     </outbound>
   </nat>
   <filter>
-    <rule uuid="430c2035-b0e7-4ae7-b086-2ccf1be39719">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>web access</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>root@192.168.1.2</username>
-        <time>1756780496.78</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.2</username>
-        <time>1756780301.46</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="7af23d23-c696-43ff-b06d-d1ed0de99a1e">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>SSH</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.10.10.14</username>
-        <time>1776299867.64</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.14</username>
-        <time>1776281667.85</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="0b9bb4bf-b4fe-470e-9846-070841487dfd">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-      </destination>
-      <updated>
-        <username>root@10.10.10.14</username>
-        <time>1776288020.72</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.14</username>
-        <time>1776288020.72</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="3db8b739-7824-498a-ac07-abe9fb9a420d">
       <type>pass</type>
       <interface>opt5</interface>
@@ -440,7 +323,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.10.10.14</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1776651027.44</time>
+    <time>1776651030.83</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -289,6 +289,31 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     </outbound>
   </nat>
   <filter>
+    <rule uuid="dbf163d7-e9a7-498b-8b8d-6324d6196caf">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.148.47.160</username>
+        <time>1776738749.12</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.148.47.160</username>
+        <time>1776738749.12</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="3db8b739-7824-498a-ac07-abe9fb9a420d">
       <type>pass</type>
       <interface>opt5</interface>
@@ -378,8 +403,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1776736551.67</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1776738749.19</time>
   </revision>
   <OPNsense>
     <wireguard>

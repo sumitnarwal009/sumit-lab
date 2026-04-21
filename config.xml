@@ -379,7 +379,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.148.47.160</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1776736517.23</time>
+    <time>1776736551.67</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1267,6 +1267,20 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <dnsserver/>
       <ntpserver/>
     </opt2>
+    <opt7>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>192.168.20.100</from>
+        <to>192.168.20.120</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt7>
   </dhcpd>
   <dhcpdv6/>
   <cert uuid="1774db18-9a29-483b-84bf-6dd83322d8ef">

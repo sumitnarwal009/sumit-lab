@@ -228,7 +228,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <if>vlan0.30</if>
     </opt1>
     <opt2>
-      <descr>Vlan010</descr>
+      <descr>Personal</descr>
       <if>vlan0.10</if>
     </opt2>
   </interfaces>
@@ -370,8 +370,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776735894.46</time>
+    <description>Interface Personal(opt2) is now disabled.</description>
+    <time>1776735912.11</time>
   </revision>
   <OPNsense>
     <wireguard>

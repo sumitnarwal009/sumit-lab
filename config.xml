@@ -228,8 +228,12 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <if>vlan0.30</if>
     </opt1>
     <opt2>
-      <descr>Personal</descr>
       <if>vlan0.10</if>
+      <descr>Personal</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>192.168.10.1</ipaddr>
+      <subnet>24</subnet>
     </opt2>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
@@ -370,8 +374,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>Interface Personal(opt2) is now disabled.</description>
-    <time>1776735912.11</time>
+    <description>/interfaces.php made changes</description>
+    <time>1776735945.15</time>
   </revision>
   <OPNsense>
     <wireguard>

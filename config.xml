@@ -362,8 +362,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/interfaces/vlan_settings/set_item/130aede6-4ddc-4c87-8dab-ad6e378492b7 made changes</description>
-    <time>1776735808.43</time>
+    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
+    <time>1776735863.03</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1186,7 +1186,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1776735808.43" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1776735863.03" description="VLAN configuration">
     <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
       <if>igc1</if>
       <tag>10</tag>
@@ -1202,6 +1202,14 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <proto/>
       <descr>vlan0.20</descr>
       <vlanif>vlan0.20</vlanif>
+    </vlan>
+    <vlan uuid="8169c3f2-5fbd-442f-9569-0cd423458259">
+      <if>igc1</if>
+      <tag>30</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>Vlan0.30</descr>
+      <vlanif>vlan0.30</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0" persisted_at="1756758969.99">

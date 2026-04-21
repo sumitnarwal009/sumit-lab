@@ -223,6 +223,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
     </wan>
+    <opt1>
+      <descr>Vlan030</descr>
+      <if>vlan0.30</if>
+    </opt1>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -362,8 +366,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
-    <time>1776735863.03</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776735887.31</time>
   </revision>
   <OPNsense>
     <wireguard>

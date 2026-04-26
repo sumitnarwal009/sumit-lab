@@ -239,6 +239,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <ipaddr>192.168.10.1</ipaddr>
       <subnet>24</subnet>
     </opt2>
+    <opt3>
+      <descr>vlan1</descr>
+      <if>vlan01</if>
+    </opt3>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -453,8 +457,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
-    <time>1777171208.71</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1777171258.27</time>
   </revision>
   <OPNsense>
     <wireguard>

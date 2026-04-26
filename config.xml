@@ -452,9 +452,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.148.47.160</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1776739354.78</time>
+    <username>root@10.10.10.14</username>
+    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
+    <time>1777171208.71</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1277,7 +1277,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <virtualip version="1.0.1" persisted_at="1756758969.93">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1776735863.03" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1777171208.71" description="VLAN configuration">
     <vlan uuid="130aede6-4ddc-4c87-8dab-ad6e378492b7">
       <if>igc1</if>
       <tag>10</tag>
@@ -1301,6 +1301,14 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <proto/>
       <descr>Vlan0.30</descr>
       <vlanif>vlan0.30</vlanif>
+    </vlan>
+    <vlan uuid="df270c6c-0690-4b34-aa1d-7962d6b94687">
+      <if>igc1</if>
+      <tag>1</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>vlan1</descr>
+      <vlanif>vlan01</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0" persisted_at="1756758969.99">

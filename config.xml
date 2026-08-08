@@ -130,6 +130,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
     <dns8gw>none</dns8gw>
+    <dnssearchdomain/>
   </system>
   <interfaces>
     <lo0>
@@ -487,9 +488,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1786230294.36</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLIResolv.php made changes</description>
+    <time>1786230295.74</time>
   </revision>
   <OPNsense>
     <wireguard>

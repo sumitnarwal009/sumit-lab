@@ -62,11 +62,6 @@
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
-    <ipv6allow>1</ipv6allow>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -249,7 +244,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <subnet>24</subnet>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1776563588.19" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -281,6 +276,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
+      <host_ping>1</host_ping>
       <nosync>0</nosync>
       <log_dhcp>0</log_dhcp>
       <log_quiet>0</log_quiet>
@@ -488,9 +484,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1786231025.41</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1786231318.24</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -616,7 +612,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Instances/>
       <StaticKeys/>
     </OpenVPN>
-    <captiveportal version="1.0.4" persisted_at="1756758969.47">
+    <captiveportal version="1.0.5" persisted_at="1786231317.23" description="Captive portal application model">
       <zones/>
       <templates/>
     </captiveportal>
@@ -651,7 +647,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1756758969.76">
+      <Filter version="1.0.5" persisted_at="1786231318.19" description="Firewall rules (new)">
+        <general/>
         <rules/>
         <snatrules/>
         <npt/>
@@ -671,7 +668,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.1" persisted_at="1776284722.35" description="Intrusion detection">
+    <IDS version="1.1.2" persisted_at="1786231141.31" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -679,7 +676,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <fileTags/>
       <general>
         <enabled>0</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>0</promisc>
         <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -716,6 +714,17 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <loopbacks version="1.0.0" persisted_at="1756758969.92"/>
       <neighbors version="1.0.0" persisted_at="1756758969.92"/>
       <vxlans version="1.0.2" persisted_at="1756758969.97"/>
+      <settings version="1.0.0" persisted_at="1786231141.48" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>0</disableipv6>
+        <dhcp6_norelease>0</dhcp6_norelease>
+        <dhcp6_debug>0</dhcp6_debug>
+        <dhcp6_duid/>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <Kea>
       <ctrl_agent version="0.0.1" persisted_at="1756758969.97">
@@ -725,15 +734,27 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1756758969.97">
+      <dhcp4 version="1.0.5" persisted_at="1786231317.79" description="Kea DHCPv4 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
           <interfaces/>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
+          <compatibility/>
         </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
@@ -741,16 +762,29 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </ha>
         <subnets/>
         <reservations/>
+        <options/>
         <ha_peers/>
       </dhcp4>
-      <dhcp6 version="1.0.0" persisted_at="1756758969.97">
+      <dhcp6 version="1.0.2" persisted_at="1786231317.86" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
           <interfaces/>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
+          <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
@@ -758,9 +792,18 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         </ha>
         <subnets/>
         <reservations/>
+        <options/>
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
+      <ddns version="1.0.0" persisted_at="1786231317.75" description="Kea Dynamic DNS configuration">
+        <general>
+          <enabled>0</enabled>
+          <manual_config>0</manual_config>
+          <server_ip>127.0.0.1</server_ip>
+          <server_port>53001</server_port>
+        </general>
+      </ddns>
     </Kea>
     <monit version="1.0.14" persisted_at="1776284722.03" description="Monit settings">
       <general>
@@ -976,7 +1019,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1776284722.64" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1786231318.24" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1004,6 +1047,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <prefetch>0</prefetch>
         <prefetchkey>0</prefetchkey>
         <dnssecstripped>0</dnssecstripped>
+        <belownxdomain>1</belownxdomain>
         <aggressivensec>1</aggressivensec>
         <serveexpired>0</serveexpired>
         <serveexpiredreplyttl/>
@@ -1288,6 +1332,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <webcategoriesType/>
       </rules>
     </Zenarmor>
+    <radvd version="1.0.1" persisted_at="1786231317.55" description="Radvd configuration"/>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1756758969.44">
     <disablepreempt>0</disablepreempt>
@@ -1352,9 +1397,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <vlanif>vlan01</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0" persisted_at="1756758969.99">
-    <route/>
-  </staticroutes>
+  <staticroutes version="1.0.1" persisted_at="1786231317.26" description="Static routes"/>
   <ppps>
     <ppp/>
   </ppps>

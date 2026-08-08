@@ -483,7 +483,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1786231959.08</time>
+    <time>1786231959.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -613,8 +613,22 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1786231942.79" description="Cron settings">
-      <jobs/>
+    <cron version="1.0.4" persisted_at="1786231959.80" description="Cron settings">
+      <jobs>
+        <job uuid="d875d1da-07c0-49da-b5f3-3525399cd43f">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters/>
+          <description>Zenarmor periodicals</description>
+        </job>
+      </jobs>
     </cron>
     <DHCRelay version="1.0.1" persisted_at="1756758969.48"/>
     <Firewall>

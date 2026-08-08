@@ -94,7 +94,7 @@
     <firmware version="1.0.1" persisted_at="1756758969.40">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-sensei,os-sensei-updater,os-sunnyvalley,os-theme-tukan,os-zerotier</plugins>
+      <plugins>os-git-backup,os-isc-dhcp,os-sensei,os-sensei-updater,os-sunnyvalley,os-theme-tukan,os-zerotier</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -489,8 +489,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1786230298.40</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1786231025.41</time>
   </revision>
   <OPNsense>
     <wireguard>

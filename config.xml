@@ -348,6 +348,33 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="2b9fa5d3-d5a6-49e0-89a7-37f1e6a059dd">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>SSH</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.14</username>
+        <time>1786230056.25</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.14</username>
+        <time>1786230056.25</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="3db8b739-7824-498a-ac07-abe9fb9a420d">
       <type>pass</type>
       <interface>opt5</interface>
@@ -461,8 +488,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.14</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1777171709.16</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1786230056.32</time>
   </revision>
   <OPNsense>
     <wireguard>

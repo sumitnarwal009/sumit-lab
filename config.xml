@@ -477,9 +477,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1786735939.77</time>
+    <username>root@10.148.47.160</username>
+    <description>/api/wireguard/server/del_server/9e082333-58bb-44d5-8893-280b02ca74d9 made changes</description>
+    <time>1786735951.55</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -489,27 +489,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <general version="0.0.1" persisted_at="1786735939.61" description="WireGuard configuration">
         <enabled>0</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1786735854.04" description="WireGuard instance configuration">
-        <servers>
-          <server uuid="9e082333-58bb-44d5-8893-280b02ca74d9">
-            <enabled>1</enabled>
-            <name>WG-instance</name>
-            <instance>0</instance>
-            <pubkey>lrsHvDB41olQqV8pzXbng7uHmH4LII9KdW9vpAOJ0Ug=</pubkey>
-            <privkey>mBmASbs5q5oUkzCDsiOTUWSIlJUo6h8pMB8303N+YHc=</privkey>
-            <port/>
-            <mtu/>
-            <dns/>
-            <tunneladdress/>
-            <disableroutes>0</disableroutes>
-            <gateway/>
-            <carp_depend_on/>
-            <peers/>
-            <debug>0</debug>
-            <endpoint/>
-            <peer_dns/>
-          </server>
-        </servers>
+      <server version="1.0.1" persisted_at="1786735951.55" description="WireGuard instance configuration">
+        <servers/>
       </server>
     </wireguard>
     <IPsec version="1.0.5" persisted_at="1776284722.22" description="IPsec settings">

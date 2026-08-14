@@ -488,15 +488,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.148.47.160</username>
     <description>/api/wireguard/general/set made changes</description>
-    <time>1786735934.32</time>
+    <time>1786735939.61</time>
   </revision>
   <OPNsense>
     <wireguard>
       <client version="1.0.0" persisted_at="1776288189.57" description="WireGuard peer configuration">
         <clients/>
       </client>
-      <general version="0.0.1" persisted_at="1786735934.32" description="WireGuard configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1786735939.61" description="WireGuard configuration">
+        <enabled>0</enabled>
       </general>
       <server version="1.0.1" persisted_at="1786735854.04" description="WireGuard instance configuration">
         <servers>

@@ -487,8 +487,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/system_advanced_firewall.php made changes</description>
-    <time>1786735509.42</time>
+    <description>/api/wireguard/server/set_server/9e082333-58bb-44d5-8893-280b02ca74d9 made changes</description>
+    <time>1786735854.04</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -498,7 +498,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <general version="0.0.1" persisted_at="1776288192.77" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1776288189.56" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1786735854.04" description="WireGuard instance configuration">
         <servers>
           <server uuid="9e082333-58bb-44d5-8893-280b02ca74d9">
             <enabled>1</enabled>
@@ -509,7 +509,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <port/>
             <mtu/>
             <dns/>
-            <tunneladdress>10.0.0.3</tunneladdress>
+            <tunneladdress/>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>

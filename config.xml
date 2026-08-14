@@ -477,9 +477,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.148.47.160</username>
-    <description>/api/wireguard/server/del_server/9e082333-58bb-44d5-8893-280b02ca74d9 made changes</description>
-    <time>1786735951.55</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1786737305.22</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -708,7 +708,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1786231317.79" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.6" persisted_at="1786737304.61" description="Kea DHCPv4 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -739,7 +739,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <options/>
         <ha_peers/>
       </dhcp4>
-      <dhcp6 version="1.0.2" persisted_at="1786231317.86" description="Kea DHCPv6 configuration">
+      <dhcp6 version="1.0.3" persisted_at="1786737304.68" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>

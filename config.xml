@@ -477,9 +477,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1786737684.95</time>
+    <username>root@10.148.47.160</username>
+    <description>/api/tailscale/settings/set made changes</description>
+    <time>1786738212.97</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1311,8 +1311,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enabled>1</enabled>
     </SystemHealth>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1786737684.53" description="Tailscale general settings">
-        <enabled>0</enabled>
+      <settings version="1.0.0" persisted_at="1786738212.97" description="Tailscale general settings">
+        <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
         <acceptDNS>1</acceptDNS>

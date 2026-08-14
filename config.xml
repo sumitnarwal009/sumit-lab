@@ -479,7 +479,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1786737305.22</time>
+    <time>1786737684.54</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1310,6 +1310,20 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <SystemHealth version="1.0.0" persisted_at="1786231828.65" description="RRD graphing backend configuration">
       <enabled>1</enabled>
     </SystemHealth>
+    <tailscale>
+      <settings version="1.0.0" persisted_at="1786737684.53" description="Tailscale general settings">
+        <enabled>0</enabled>
+        <loginTimeout>10</loginTimeout>
+        <listenPort>41641</listenPort>
+        <acceptDNS>1</acceptDNS>
+        <advertiseExitNode>0</advertiseExitNode>
+        <useExitNode/>
+        <acceptSubnetRoutes>0</acceptSubnetRoutes>
+        <enableSSH>0</enableSSH>
+        <disableSNAT>0</disableSNAT>
+        <subnets/>
+      </settings>
+    </tailscale>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1756758969.44">
     <disablepreempt>0</disablepreempt>

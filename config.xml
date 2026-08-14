@@ -145,15 +145,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <wireguard>
-      <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
-      <if>wireguard</if>
-      <virtual>1</virtual>
-      <enable>1</enable>
-      <type>group</type>
-      <networks/>
-    </wireguard>
     <opt5>
       <if>ztb20t86n96hanu</if>
       <descr>Zerotier</descr>
@@ -486,9 +477,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.148.47.160</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1786735939.61</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1786735939.77</time>
   </revision>
   <OPNsense>
     <wireguard>

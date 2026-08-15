@@ -489,9 +489,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.148.47.160</username>
-    <description>/interfaces.php made changes</description>
-    <time>1786757608.03</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1786761425.98</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1395,6 +1395,86 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <subnets/>
       </settings>
     </tailscale>
+    <quagga>
+      <static version="1.0.0" persisted_at="1786761425.97" description="Staticd Routing configuration">
+        <enabled>0</enabled>
+        <routes/>
+      </static>
+      <ospf6 version="1.1.0" persisted_at="1786761425.97" description="OSPFv3 Routing configuration">
+        <enabled>0</enabled>
+        <carp_demote>0</carp_demote>
+        <routerid/>
+        <originate>0</originate>
+        <originatealways>0</originatealways>
+        <originatemetric/>
+        <networks/>
+        <interfaces/>
+        <prefixlists/>
+        <routemaps/>
+        <redistributions/>
+      </ospf6>
+      <rip version="1.0.3" persisted_at="1786761425.97" description="RIP Routing configuration">
+        <enabled>0</enabled>
+        <version>2</version>
+        <networks/>
+        <passiveinterfaces/>
+        <redistribute/>
+        <defaultmetric/>
+      </rip>
+      <ospf version="1.1.0" persisted_at="1786761425.97" description="OSPF Routing configuration">
+        <enabled>0</enabled>
+        <carp_demote>0</carp_demote>
+        <routerid/>
+        <costreference/>
+        <logadjacencychanges>0</logadjacencychanges>
+        <originate>0</originate>
+        <originatealways>0</originatealways>
+        <originatemetric/>
+        <passiveinterfaces/>
+        <areas/>
+        <networks/>
+        <neighbors/>
+        <interfaces/>
+        <prefixlists/>
+        <routemaps/>
+        <redistributions/>
+      </ospf>
+      <bfd version="1.0.3" persisted_at="1786761425.97" description="BFD configuration">
+        <enabled>0</enabled>
+        <neighbors/>
+      </bfd>
+      <general version="1.0.4" persisted_at="1786761425.97" description="Quagga Routing configuration">
+        <enabled>0</enabled>
+        <manual_config>0</manual_config>
+        <profile>traditional</profile>
+        <enablecarp>0</enablecarp>
+        <enablesyslog>1</enablesyslog>
+        <enablesnmp>0</enablesnmp>
+        <sysloglevel>notifications</sysloglevel>
+        <fwrules>1</fwrules>
+      </general>
+      <bgp version="1.1.2" persisted_at="1786761425.97" description="BGP Routing configuration">
+        <enabled>0</enabled>
+        <asnumber>65551</asnumber>
+        <distance/>
+        <routerid/>
+        <graceful>0</graceful>
+        <networkimportcheck>1</networkimportcheck>
+        <enforce_first_as>1</enforce_first_as>
+        <logneighborchanges>0</logneighborchanges>
+        <networks/>
+        <bestpath/>
+        <maximumpaths/>
+        <maximumpathsibgp/>
+        <neighbors/>
+        <aspaths/>
+        <prefixlists/>
+        <communitylists/>
+        <routemaps/>
+        <peergroups/>
+        <redistributions/>
+      </bgp>
+    </quagga>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1756758969.44">
     <disablepreempt>0</disablepreempt>

@@ -491,7 +491,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.148.47.160</username>
     <description>/api/quagga/bgp/add_neighbor/ made changes</description>
-    <time>1786762671.89</time>
+    <time>1786762738.39</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1453,7 +1453,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <sysloglevel>notifications</sysloglevel>
         <fwrules>1</fwrules>
       </general>
-      <bgp version="1.1.2" persisted_at="1786762671.89" description="BGP Routing configuration">
+      <bgp version="1.1.2" persisted_at="1786762738.39" description="BGP Routing configuration">
         <enabled>0</enabled>
         <asnumber>65551</asnumber>
         <distance/>
@@ -1473,6 +1473,42 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <address>100.86.90.107</address>
             <remote_as_mode/>
             <remoteas>64512</remoteas>
+            <localas>64511</localas>
+            <password/>
+            <weight/>
+            <localip/>
+            <updatesource/>
+            <linklocalinterface/>
+            <nexthopself>0</nexthopself>
+            <nexthopselfall>0</nexthopselfall>
+            <multihop>0</multihop>
+            <multiprotocol>0</multiprotocol>
+            <rrclient>0</rrclient>
+            <soft_reconfiguration_inbound>0</soft_reconfiguration_inbound>
+            <bfd>0</bfd>
+            <bfd_strict>0</bfd_strict>
+            <keepalive/>
+            <holddown/>
+            <connecttimer/>
+            <defaultoriginate>0</defaultoriginate>
+            <asoverride>0</asoverride>
+            <removeprivateas/>
+            <allowas_in/>
+            <disable_connected_check>0</disable_connected_check>
+            <attributeunchanged/>
+            <capabilities/>
+            <linkedPrefixlistIn/>
+            <linkedPrefixlistOut/>
+            <linkedRoutemapIn/>
+            <linkedRoutemapOut/>
+            <peergroup/>
+          </neighbor>
+          <neighbor uuid="d9b4cef9-d9ec-4657-82de-a8ddf58dff37">
+            <enabled>1</enabled>
+            <description>Oracle-vm</description>
+            <address>100.114.95.91</address>
+            <remote_as_mode/>
+            <remoteas>64513</remoteas>
             <localas>64511</localas>
             <password/>
             <weight/>

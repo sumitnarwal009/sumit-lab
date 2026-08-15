@@ -490,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/quagga/bgp/set_neighbor/a5f52ee0-fc8f-4109-8480-6e7f27638f61 made changes</description>
-    <time>1786763164.58</time>
+    <description>/api/quagga/bgp/set made changes</description>
+    <time>1786763166.64</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1453,7 +1453,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <sysloglevel>notifications</sysloglevel>
         <fwrules>1</fwrules>
       </general>
-      <bgp version="1.1.2" persisted_at="1786763164.58" description="BGP Routing configuration">
+      <bgp version="1.1.2" persisted_at="1786763166.64" description="BGP Routing configuration">
         <enabled>1</enabled>
         <asnumber>64511</asnumber>
         <distance/>

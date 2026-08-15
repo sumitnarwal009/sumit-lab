@@ -488,8 +488,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/interfaces/assignment/add_item/ made changes</description>
-    <time>1786757284.26</time>
+    <description>/api/interfaces/assignment/reconfigure made changes</description>
+    <time>1786757292.00</time>
   </revision>
   <OPNsense>
     <wireguard>

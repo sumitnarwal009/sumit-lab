@@ -247,7 +247,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <opt4>
       <if>tailscale0</if>
       <descr>Tailscale</descr>
+      <enable>1</enable>
       <lock>1</lock>
+      <spoofmac/>
     </opt4>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
@@ -488,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1786757383.68</time>
+    <description>/interfaces.php made changes</description>
+    <time>1786757608.03</time>
   </revision>
   <OPNsense>
     <wireguard>

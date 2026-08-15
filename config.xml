@@ -490,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/quagga/bgp/set made changes</description>
-    <time>1786763166.64</time>
+    <description>/api/quagga/bgp/add_prefixlist/ made changes</description>
+    <time>1786763310.22</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1453,7 +1453,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <sysloglevel>notifications</sysloglevel>
         <fwrules>1</fwrules>
       </general>
-      <bgp version="1.1.2" persisted_at="1786763166.64" description="BGP Routing configuration">
+      <bgp version="1.1.2" persisted_at="1786763310.22" description="BGP Routing configuration">
         <enabled>1</enabled>
         <asnumber>64511</asnumber>
         <distance/>
@@ -1613,7 +1613,17 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
           </neighbor>
         </neighbors>
         <aspaths/>
-        <prefixlists/>
+        <prefixlists>
+          <prefixlist uuid="106c2104-db94-4095-93ed-350bf3d5811f">
+            <enabled>1</enabled>
+            <description>ALLOW ALL</description>
+            <name>ALLOW_ALL</name>
+            <version>IPv4</version>
+            <seqnumber>10</seqnumber>
+            <action>permit</action>
+            <network>0.0.0.0/0</network>
+          </prefixlist>
+        </prefixlists>
         <communitylists/>
         <routemaps/>
         <peergroups/>

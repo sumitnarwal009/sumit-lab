@@ -150,6 +150,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>Zerotier</descr>
       <enable>1</enable>
       <spoofmac/>
+      <lock>0</lock>
     </opt5>
     <opt7>
       <if>vlan0.20</if>
@@ -158,6 +159,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
       <ipaddr>192.168.20.1</ipaddr>
       <subnet>24</subnet>
+      <lock>0</lock>
     </opt7>
     <wan>
       <if>igc0</if>
@@ -222,6 +224,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
       <ipaddr>192.168.30.1</ipaddr>
       <subnet>24</subnet>
+      <lock>0</lock>
     </opt1>
     <opt2>
       <if>vlan0.10</if>
@@ -230,6 +233,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
       <ipaddr>192.168.10.1</ipaddr>
       <subnet>24</subnet>
+      <lock>0</lock>
     </opt2>
     <opt3>
       <if>vlan01</if>
@@ -238,7 +242,13 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <spoofmac/>
       <ipaddr>172.25.1.1</ipaddr>
       <subnet>24</subnet>
+      <lock>0</lock>
     </opt3>
+    <opt4>
+      <if>tailscale0</if>
+      <descr>Tailscale</descr>
+      <lock>1</lock>
+    </opt4>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -478,8 +488,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/tailscale/settings/set made changes</description>
-    <time>1786738212.97</time>
+    <description>/api/interfaces/assignment/add_item/ made changes</description>
+    <time>1786757284.26</time>
   </revision>
   <OPNsense>
     <wireguard>

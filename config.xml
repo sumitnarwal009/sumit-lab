@@ -131,7 +131,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <aliasesresolveinterval/>
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
-    <disablefilter>enabled</disablefilter>
   </system>
   <interfaces>
     <lo0>
@@ -492,7 +491,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@10.148.47.160</username>
     <description>/system_advanced_firewall.php made changes</description>
-    <time>1787093709.38</time>
+    <time>1787093958.24</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -131,6 +131,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <aliasesresolveinterval/>
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
+    <disablefilter>enabled</disablefilter>
   </system>
   <interfaces>
     <lo0>
@@ -490,8 +491,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/firewall/filter/toggle_rule_log/78e86501-b3e5-444d-8481-dab9a54fae51/1 made changes</description>
-    <time>1787076573.23</time>
+    <description>/system_advanced_firewall.php made changes</description>
+    <time>1787093709.38</time>
   </revision>
   <OPNsense>
     <wireguard>

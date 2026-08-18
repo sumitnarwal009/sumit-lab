@@ -490,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@10.148.47.160</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1787073757.05</time>
+    <description>/api/quagga/general/set made changes</description>
+    <time>1787073963.71</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1501,8 +1501,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
         <enabled>0</enabled>
         <neighbors/>
       </bfd>
-      <general version="1.0.4" persisted_at="1786761425.97" description="Quagga Routing configuration">
-        <enabled>0</enabled>
+      <general version="1.0.4" persisted_at="1787073963.71" description="Quagga Routing configuration">
+        <enabled>1</enabled>
         <manual_config>0</manual_config>
         <profile>traditional</profile>
         <enablecarp>0</enablecarp>

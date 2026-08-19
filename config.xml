@@ -51,7 +51,7 @@
     <timezone>America/Chicago</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>http</protocol>
+      <protocol>https</protocol>
       <ssl-certref>68b6040659f2d</ssl-certref>
       <port/>
       <ssl-ciphers/>
@@ -490,9 +490,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.148.47.160</username>
-    <description>/system_advanced_firewall.php made changes</description>
-    <time>1787094373.68</time>
+    <username>root@100.84.182.49</username>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1787145298.11</time>
   </revision>
   <OPNsense>
     <wireguard>

@@ -168,7 +168,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <blockbogons>1</blockbogons>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -491,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@100.84.182.49</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1787145298.11</time>
+    <description>/interfaces.php made changes</description>
+    <time>1787150189.56</time>
   </revision>
   <OPNsense>
     <wireguard>

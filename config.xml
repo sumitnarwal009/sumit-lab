@@ -42,7 +42,7 @@
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>EbzzK3XHNkHTa1w/hzJWklDKEfxhFTRm43I8u9wMJhRa4dwMPmM50QLN/YobzL7xGBxMe5DbaY59ZyuJ|$6$$B48gVkKjBscpDg5Syq1jmQMc.pJdu../7OwIuqhOAc9pdRAk8FRvE77KvvdoLLiou94/zvhozP.oQt80/K92Z1</apikeys>
       <priv/>
       <language/>
       <descr>System Administrator</descr>
@@ -490,8 +490,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@100.84.182.49</username>
-    <description>/interfaces.php made changes</description>
-    <time>1787150189.56</time>
+    <description>/api/auth/user/add_api_key/root made changes</description>
+    <time>1787155906.48</time>
   </revision>
   <OPNsense>
     <wireguard>

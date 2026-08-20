@@ -307,8 +307,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@100.84.182.49</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1787248251.86</time>
+    <description>/api/firewall/group/add_item/ made changes</description>
+    <time>1787248603.89</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1577,7 +1577,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <syncitems/>
   </hasync>
   <openvpn/>
-  <ifgroups version="1.0.0" persisted_at="1756758969.76"/>
+  <ifgroups version="1.0.0" persisted_at="1787248603.89" description="Firewall interface groups">
+    <ifgroupentry uuid="4db28d4d-bbe9-4518-b23d-2e2867a50d06">
+      <ifname>WEB_UI</ifname>
+      <members>opt4,wan,opt5</members>
+      <nogroup>0</nogroup>
+      <sequence>0</sequence>
+      <descr>web access -opensense</descr>
+    </ifgroupentry>
+  </ifgroups>
   <bridges version="1.0.0" persisted_at="1756758969.88">
     <bridged/>
   </bridges>

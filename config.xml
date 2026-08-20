@@ -251,6 +251,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <lock>1</lock>
       <spoofmac/>
     </opt4>
+    <WEB_UI>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <networks/>
+      <if>WEB_UI</if>
+      <descr>WEB_UI</descr>
+      <virtual>1</virtual>
+      <type>group</type>
+    </WEB_UI>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
@@ -306,9 +315,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@100.84.182.49</username>
-    <description>/api/firewall/group/add_item/ made changes</description>
-    <time>1787248603.89</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1787248615.13</time>
   </revision>
   <OPNsense>
     <wireguard>

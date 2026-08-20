@@ -316,8 +316,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@100.84.182.49</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1787250576.03</time>
+    <description>/api/firewall/filter/set_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
+    <time>1787250674.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -459,7 +459,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787250576.02" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787250674.69" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="5fff3973-3b62-448b-aedd-0f08d2f3ad98">
@@ -537,7 +537,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <source_net>WEB_UI</source_net>
             <source_not>0</source_not>
             <source_port/>
-            <destination_net>(self)</destination_net>
+            <destination_net>(self),wanip</destination_net>
             <destination_not>0</destination_not>
             <destination_port>http</destination_port>
             <divert-to/>

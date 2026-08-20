@@ -317,7 +317,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@100.84.182.49</username>
     <description>/api/firewall/filter/set_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
-    <time>1787250674.69</time>
+    <time>1787250728.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -459,7 +459,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787250674.69" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787250728.81" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="5fff3973-3b62-448b-aedd-0f08d2f3ad98">
@@ -544,7 +544,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <gateway/>
             <replyto/>
             <disablereplyto>0</disablereplyto>
-            <log>0</log>
+            <log>1</log>
             <allowopts>0</allowopts>
             <nosync>0</nosync>
             <nopfsync>0</nopfsync>

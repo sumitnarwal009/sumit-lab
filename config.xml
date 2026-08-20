@@ -51,7 +51,7 @@
     <timezone>America/Chicago</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>https</protocol>
+      <protocol>http</protocol>
       <ssl-certref>68b6040659f2d</ssl-certref>
       <port/>
       <ssl-ciphers/>
@@ -316,8 +316,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@100.84.182.49</username>
-    <description>/api/firewall/filter/set_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
-    <time>1787250833.45</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1787250926.05</time>
   </revision>
   <OPNsense>
     <wireguard>

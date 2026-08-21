@@ -147,15 +147,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <opt7>
-      <if>vlan0.20</if>
-      <descr>DMZ</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.20.1</ipaddr>
-      <subnet>24</subnet>
-      <lock>0</lock>
-    </opt7>
     <wan>
       <if>igc0</if>
       <descr/>
@@ -329,8 +320,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/interfaces/assignment/del_item/opt7 made changes</description>
-    <time>1787324698.98</time>
+    <description>/api/interfaces/assignment/reconfigure made changes</description>
+    <time>1787324723.04</time>
   </revision>
   <OPNsense>
     <wireguard>

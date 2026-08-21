@@ -230,7 +230,14 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <track6-prefix-id>0</track6-prefix-id>
       <ipaddrv6>idassoc6</ipaddrv6>
       <subnetv6>64</subnetv6>
+      <descr/>
+      <lock>0</lock>
     </lan>
+    <opt1>
+      <if>tailscale0</if>
+      <descr>Tailscale</descr>
+      <lock>1</lock>
+    </opt1>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -298,8 +305,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/firewall/filter/del_rule/5fff3973-3b62-448b-aedd-0f08d2f3ad98 made changes</description>
-    <time>1787317686.60</time>
+    <description>/api/interfaces/assignment/add_item/ made changes</description>
+    <time>1787317953.49</time>
   </revision>
   <OPNsense>
     <wireguard>

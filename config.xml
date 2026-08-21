@@ -101,7 +101,7 @@
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <backup>
-      <git version="1.0.0" persisted_at="1776388563.97" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1787333878.70" description="Git Backup Settings">
         <enabled>1</enabled>
         <url>https://github.com/sumitnarwal009/sumit-lab.git</url>
         <branch>master</branch>
@@ -319,8 +319,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/firewall/filter/set_rule/ea6e2830-a9c6-4657-bbdb-73398a7f9de5 made changes</description>
-    <time>1787330310.98</time>
+    <description>/diag_backup.php made changes</description>
+    <time>1787333878.70</time>
   </revision>
   <OPNsense>
     <wireguard>

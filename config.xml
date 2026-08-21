@@ -328,9 +328,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1787324551.86</time>
+    <username>root@192.168.1.2</username>
+    <description>/api/interfaces/assignment/del_item/opt7 made changes</description>
+    <time>1787324698.98</time>
   </revision>
   <OPNsense>
     <wireguard>

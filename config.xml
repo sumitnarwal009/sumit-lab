@@ -320,8 +320,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/firewall/filter/del_rule/c5e55798-c142-4457-9c41-e2ab0f70386d made changes</description>
-    <time>1787323870.29</time>
+    <description>/api/firewall/group/add_item/ made changes</description>
+    <time>1787324548.82</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1415,7 +1415,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <syncitems/>
   </hasync>
   <openvpn/>
-  <ifgroups version="1.0.0" persisted_at="1787323458.94" description="Firewall interface groups">
+  <ifgroups version="1.0.0" persisted_at="1787324548.82" description="Firewall interface groups">
     <ifgroupentry uuid="4db28d4d-bbe9-4518-b23d-2e2867a50d06">
       <ifname>Overlay_UI</ifname>
       <members>opt1,opt2</members>
@@ -1429,6 +1429,13 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <nogroup>0</nogroup>
       <sequence>0</sequence>
       <descr>Tailscale</descr>
+    </ifgroupentry>
+    <ifgroupentry uuid="aae2ea51-e010-40c9-a6ba-dfd1c841ddd0">
+      <ifname>Zerotier</ifname>
+      <members>opt2</members>
+      <nogroup>0</nogroup>
+      <sequence>0</sequence>
+      <descr>Zerotier</descr>
     </ifgroupentry>
   </ifgroups>
   <bridges version="1.0.0" persisted_at="1756758969.88">

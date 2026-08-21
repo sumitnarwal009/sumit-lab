@@ -319,8 +319,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/system_advanced_firewall.php made changes</description>
-    <time>1787329852.89</time>
+    <description>/api/firewall/filter/set_rule/ea6e2830-a9c6-4657-bbdb-73398a7f9de5 made changes</description>
+    <time>1787330310.98</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -462,7 +462,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787329765.98" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787330310.98" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="ea6e2830-a9c6-4657-bbdb-73398a7f9de5">
@@ -475,11 +475,11 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <interfacenot>0</interfacenot>
             <interface>opt1</interface>
             <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
+            <ipprotocol>inet46</ipprotocol>
+            <protocol>TCP</protocol>
             <icmptype/>
             <icmp6type/>
-            <source_net>any</source_net>
+            <source_net>opt1ip</source_net>
             <source_not>0</source_not>
             <source_port/>
             <destination_net>any</destination_net>

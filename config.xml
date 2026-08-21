@@ -309,9 +309,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1787318371.03</time>
+    <username>root@192.168.1.2</username>
+    <description>/api/firewall/filter/set_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
+    <time>1787318422.28</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -453,7 +453,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787317686.60" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787318422.28" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="40f0b812-7b80-4913-8716-104f764bb076">
@@ -512,7 +512,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description/>
+            <description>UI</description>
           </rule>
         </rules>
         <snatrules/>

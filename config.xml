@@ -244,6 +244,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <virtual>1</virtual>
       <type>group</type>
     </Overlay_UI>
+    <Tailscale>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <networks/>
+      <if>Tailscale</if>
+      <descr>Tailscale</descr>
+      <virtual>1</virtual>
+      <type>group</type>
+    </Tailscale>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -310,9 +319,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.2</username>
-    <description>/api/firewall/group/add_item/ made changes</description>
-    <time>1787323458.94</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1787323461.11</time>
   </revision>
   <OPNsense>
     <wireguard>

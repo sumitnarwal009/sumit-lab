@@ -310,8 +310,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/interfaces/assignment/reconfigure made changes</description>
-    <time>1787317975.15</time>
+    <description>/api/firewall/group/set_item/4db28d4d-bbe9-4518-b23d-2e2867a50d06 made changes</description>
+    <time>1787318370.87</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -464,13 +464,13 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <action>pass</action>
             <quick>1</quick>
             <interfacenot>0</interfacenot>
-            <interface>WEB_UI</interface>
+            <interface>Overlay_UI</interface>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
             <icmptype/>
             <icmp6type/>
-            <source_net>WEB_UI</source_net>
+            <source_net>Overlay_UI</source_net>
             <source_not>0</source_not>
             <source_port/>
             <destination_net>any</destination_net>
@@ -1464,10 +1464,10 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <syncitems/>
   </hasync>
   <openvpn/>
-  <ifgroups version="1.0.0" persisted_at="1787248603.89" description="Firewall interface groups">
+  <ifgroups version="1.0.0" persisted_at="1787318370.87" description="Firewall interface groups">
     <ifgroupentry uuid="4db28d4d-bbe9-4518-b23d-2e2867a50d06">
-      <ifname>WEB_UI</ifname>
-      <members>opt4,wan,opt5</members>
+      <ifname>Overlay_UI</ifname>
+      <members>opt1,opt2</members>
       <nogroup>0</nogroup>
       <sequence>0</sequence>
       <descr>web access -opensense</descr>

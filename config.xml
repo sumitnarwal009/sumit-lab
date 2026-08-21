@@ -298,8 +298,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/firewall/filter/set_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
-    <time>1787317668.98</time>
+    <description>/api/firewall/filter/del_rule/5fff3973-3b62-448b-aedd-0f08d2f3ad98 made changes</description>
+    <time>1787317686.60</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -441,67 +441,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787317668.98" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787317686.60" description="Firewall rules (new)">
         <general/>
         <rules>
-          <rule uuid="5fff3973-3b62-448b-aedd-0f08d2f3ad98">
-            <enabled>1</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>100</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>opt4</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>any</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>any</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port/>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>0</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <max-pkt-rate-number/>
-            <max-pkt-rate-seconds/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio>0</prio>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <tcpflags_any>0</tcpflags_any>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description/>
-          </rule>
           <rule uuid="40f0b812-7b80-4913-8716-104f764bb076">
             <enabled>1</enabled>
             <statetype>keep</statetype>

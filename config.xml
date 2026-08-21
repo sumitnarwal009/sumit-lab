@@ -132,6 +132,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
     <pf_disable_force_gw>1</pf_disable_force_gw>
+    <disablefilter>enabled</disablefilter>
   </system>
   <interfaces>
     <lo0>
@@ -310,8 +311,8 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.2</username>
-    <description>/api/firewall/filter/del_rule/40f0b812-7b80-4913-8716-104f764bb076 made changes</description>
-    <time>1787320305.00</time>
+    <description>/system_advanced_firewall.php made changes</description>
+    <time>1787320599.57</time>
   </revision>
   <OPNsense>
     <wireguard>

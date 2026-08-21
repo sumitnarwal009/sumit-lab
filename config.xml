@@ -212,15 +212,6 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <blockbogons>1</blockbogons>
       <blockpriv>1</blockpriv>
     </wan>
-    <WEB_UI>
-      <internal_dynamic>1</internal_dynamic>
-      <enable>1</enable>
-      <networks/>
-      <if>WEB_UI</if>
-      <descr>WEB_UI</descr>
-      <virtual>1</virtual>
-      <type>group</type>
-    </WEB_UI>
     <lan>
       <if>igc1</if>
       <enable>1</enable>
@@ -243,6 +234,15 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>Zerotier</descr>
       <lock>1</lock>
     </opt2>
+    <Overlay_UI>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <networks/>
+      <if>Overlay_UI</if>
+      <descr>Overlay_UI</descr>
+      <virtual>1</virtual>
+      <type>group</type>
+    </Overlay_UI>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -309,9 +309,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.2</username>
-    <description>/api/firewall/group/set_item/4db28d4d-bbe9-4518-b23d-2e2867a50d06 made changes</description>
-    <time>1787318370.87</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1787318371.03</time>
   </revision>
   <OPNsense>
     <wireguard>

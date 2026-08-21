@@ -319,9 +319,9 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1787323461.11</time>
+    <username>root@192.168.1.2</username>
+    <description>/api/firewall/filter/set_rule/c5e55798-c142-4457-9c41-e2ab0f70386d made changes</description>
+    <time>1787323590.09</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -463,7 +463,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <Category version="1.0.0" persisted_at="1756758969.67">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1787320305.00" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1787323590.09" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="c5e55798-c142-4457-9c41-e2ab0f70386d">
@@ -477,7 +477,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
             <interface>opt1</interface>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
+            <protocol>TCP</protocol>
             <icmptype/>
             <icmp6type/>
             <source_net>any</source_net>

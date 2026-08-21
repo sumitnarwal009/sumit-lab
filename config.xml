@@ -238,6 +238,11 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
       <descr>Tailscale</descr>
       <lock>1</lock>
     </opt1>
+    <opt2>
+      <if>ztb20t86n96hanu</if>
+      <descr>Zerotier</descr>
+      <lock>1</lock>
+    </opt2>
   </interfaces>
   <dnsmasq version="1.0.9" persisted_at="1786231317.99" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -306,7 +311,7 @@ yANJtjxk1yQv5wlRnKp0AAAAFnJvb3RAT1BOc2Vuc2UuaW50ZXJuYWwBAgMEBQYH&#13;
   <revision>
     <username>root@192.168.1.2</username>
     <description>/api/interfaces/assignment/add_item/ made changes</description>
-    <time>1787317953.49</time>
+    <time>1787317973.00</time>
   </revision>
   <OPNsense>
     <wireguard>

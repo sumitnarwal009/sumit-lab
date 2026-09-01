@@ -10,7 +10,7 @@
 # separate untracked *.auto.tfvars file instead.
 
 proxmox_api_url      = "https://100.116.18.19:8006/api2/json"
-proxmox_api_token    = "root@pam!terraform=PASTE-YOUR-TOKEN-SECRET-HERE"
+proxmox_api_token    = "root@pam!terraform=a4bf51ad-4e98-48fd-9c4a-71f25d9b6f93"
 proxmox_tls_insecure = true
 
 proxmox_node   = "Acemagic"
